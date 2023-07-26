@@ -565,8 +565,26 @@ button {
     justify-content: center;
     align-items: center;
   }
+  .conjunto-trabajos {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .equipo {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+  }
 }
 @media (max-width: 768px) {
+  .carousel-caption h5 {
+    display: block;
+  }
   .PieDePagina {
     grid-template-columns: 1fr;
   }
@@ -610,6 +628,11 @@ button {
 @media (max-width: 992px) {
   .portada1 {
     height: 380px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
   }
 }
 @media (max-width: 1670px) {
