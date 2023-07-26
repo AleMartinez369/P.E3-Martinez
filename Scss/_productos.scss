@@ -1,0 +1,22 @@
+.cuerpoProductos{
+    display: flex;
+}
+
+.selectorProductos{
+    width: 150px;
+    height: 22px;
+    margin: 30px;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjetaProductos{
+    @extend %ventas;
+    
+    p{
+        color: black;
+    }
+}

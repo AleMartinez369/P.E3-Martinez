@@ -1,0 +1,41 @@
+.formulario{
+    width: 768px;
+    font-size: 20px;
+    margin: 30px auto;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(97, 215, 245, 0.281);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 10px;
+    
+}
+
+.formulario input{
+    width: 360px;
+    background-color: #eee6e6;
+    border: none;
+    border-bottom: 2px solid #faf3f3;
+    color: black;
+}
+
+.formulario input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.632);
+    color: black;
+}
+
+.formulario .in-Mensaje{
+    grid-column: 2 span;
+    text-align: start;
+}
+
+.formulario .in-Terminos{
+    grid-column: 2 span;
+    text-align: start;
+}
+

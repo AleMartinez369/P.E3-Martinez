@@ -1,0 +1,54 @@
+.portada1{
+    width: 100%;
+    height: 220px;
+    background-image: url(../Multimedia/Img/Portada1.png);
+    background-size: cover;
+    margin-top: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.logoYT{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 25px;
+    border: solid 5px #e9dcdc;
+    transition: 1s;
+    &:hover{
+        transition: 1s;
+        transform: scale(1.3);
+    }
+    animation-name: deslizamiento;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    animation-timing-function: cubic-bezier(.78,.41,.17,.69);
+}
+
+@keyframes deslizamiento{
+    0%{
+        transform: translate(0 , 0);
+    }
+    25%{
+        transform: translate(700px , 0px);
+        width: 80px;
+        
+    }
+    50%{
+        transform: translate(700px , 0px);
+    }
+}
+
+
+.PortadaNosotros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.IframeNosotros {
+    width: 80%;
+    margin: 25px;
+}

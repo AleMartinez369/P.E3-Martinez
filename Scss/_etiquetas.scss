@@ -1,0 +1,112 @@
+.MarcasInicio{
+    width: 450px;
+    border: solid 1px white;
+    margin: 30px auto;
+    color: rgb(197, 223, 224);
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        text-align: center;
+        text-decoration: double;
+        color: rgb(146, 205, 233);
+        font-size: 30px;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        margin: 5px;
+    }
+}
+
+
+.grupoDetrabajo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.somos p{
+    border: solid 2px;
+    width: 175px;
+    padding: 5px;
+    color: white;
+}
+
+.equipo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px;
+}
+
+.tarjetaNosotros{
+    border: solid 3px;
+    border-radius: 5px;
+    width: 160px;
+    height: 160px;
+    padding: 1px;
+    margin: 5px;
+
+    img{
+        width: 100%;
+        height: 100%;
+        &:hover{
+        transform: rotateY(360deg) scale(1.5);
+        transition: 2.5s;
+        }
+    }
+}
+
+/*.eq1:hover{
+    transform: rotateY(360deg);
+    transition: 2.5s;
+}*/
+
+.presidente{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.team{
+    background-color: #d5e1e423;
+    width: 300px
+}
+
+p{
+    color: white;
+    margin-left: 15px;
+}
+
+li{
+    color: white;
+    margin-left: 15px;
+}
+
+.datos{
+    color: white;
+    font-weight: bolder;
+    border: solid 5px rgb(22, 22, 109);
+    border-radius: 6px;
+    width: 450px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tel-wpp{
+    display: flex;
+}
+

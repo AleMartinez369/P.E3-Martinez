@@ -1,0 +1,26 @@
+button{
+    cursor: pointer;
+}
+
+.productos__comprar{
+    width: 140px;
+    height: 40px;
+    background-color: rgba(23, 24, 23, 0.89);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.productos__comprar:hover{
+    background-color: rgb(18, 131, 18);
+    font-weight: bolder;
+    border: solid 2px #13470f;
+}
+
+.formulario button{
+    background-color: rgb(238, 230, 216);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}

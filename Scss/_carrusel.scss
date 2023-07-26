@@ -1,0 +1,19 @@
+.carousel{
+    width: 100%;
+    height: 400px;
+    background-color: #21bdd8;
+    img{
+        object-fit: cover;
+        height: 400px;
+    }
+    h5{
+        color: rgb(209, 77, 15);
+        font-size: 35px;
+        text-shadow:2px 6px 3px #000000;
+    }
+    p{
+        color: rgb(219, 101, 22);
+        font-size: 20px;
+        text-shadow: 2px 6px 3px #000000;
+    }
+}

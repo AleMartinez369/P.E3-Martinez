@@ -1,0 +1,22 @@
+%ventas{
+    border: solid 3px #150d52;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+
+    img{
+        width: 100%;
+        height: 274px;
+   
+    }
+}
+
+%redes{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
