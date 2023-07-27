@@ -1,5 +1,6 @@
 .MarcasInicio{
-    width: 450px;
+    border-radius: 5px;
+    width: 500px;
     border: solid 1px white;
     margin: 30px auto;
     color: rgb(197, 223, 224);
@@ -64,10 +65,6 @@
     }
 }
 
-/*.eq1:hover{
-    transform: rotateY(360deg);
-    transition: 2.5s;
-}*/
 
 .presidente{
     font-size: 20px;

@@ -9,6 +9,10 @@
     flex-direction: column;
 }
 
+.YT{
+    width: 50%;
+}
+
 .logoYT{
     width: 70px;
     border-radius: 50%;
@@ -31,12 +35,12 @@
         transform: translate(0 , 0);
     }
     25%{
-        transform: translate(700px , 0px);
+        transform: translate(800px , 0px);
         width: 80px;
         
     }
     50%{
-        transform: translate(700px , 0px);
+        transform: translate(800px , 0px);
     }
 }
 
