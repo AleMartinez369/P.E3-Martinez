@@ -309,6 +309,10 @@
   width: 100%;
   height: 100%;
   border-radius: 20px;
+  object-fit: cover;
+}
+
+.PasacableInicio img {
   object-fit: fill;
 }
 
@@ -378,7 +382,7 @@
 }*/
 .MarcasInicio {
   border-radius: 5px;
-  width: 300px;
+  width: 350px;
   height: 540px;
   border: solid 1px white;
   margin: 30px auto;
@@ -402,8 +406,9 @@
 }
 
 .IframeInicio {
-  width: 500px;
-  margin: 200px;
+  width: 600px;
+  height: 350px;
+  margin: 100px 180px 100px 100px;
   border-radius: 10px;
   box-shadow: -7px -7px 10px rgba(219, 241, 241, 0.3294117647);
 }
@@ -446,6 +451,7 @@
 .tarjetaNosotros img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .tarjetaNosotros img:hover {
   transform: rotateY(360deg) scale(1.5);
@@ -549,35 +555,6 @@ button {
 }
 /*MQ 576 PX*/
 @media (max-width: 576px) {
-  .navegador .menu {
-    display: block;
-    width: 65px;
-    height: 65px;
-    margin: 10px;
-    order: -1;
-  }
-  .navegador .menu:hover + ul {
-    left: 0px;
-  }
-  .navegador ul:hover {
-    left: 0px;
-  }
-  .navegador ul {
-    position: fixed;
-    top: 0;
-    left: -500px;
-    background-color: white;
-    width: 70vw;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding-top: 100px;
-    transition: 1s;
-  }
-  .navegador ul li a {
-    color: black;
-  }
   .BootsTrap {
     justify-content: center;
     flex-direction: column;
@@ -629,6 +606,35 @@ button {
 }
 /*MQ 768 PX*/
 @media (max-width: 768px) {
+  .navegador .menu {
+    display: block;
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+    order: -1;
+  }
+  .navegador .menu:hover + ul {
+    left: 0px;
+  }
+  .navegador ul:hover {
+    left: 0px;
+  }
+  .navegador ul {
+    position: fixed;
+    top: 0;
+    left: -500px;
+    background-color: white;
+    width: 70vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 100px;
+    transition: 1s;
+  }
+  .navegador ul li a {
+    color: black;
+  }
   .carousel-caption h5 {
     display: block;
   }
@@ -677,7 +683,8 @@ button {
   }
   .MarcasInicio {
     width: 250px;
-    font-size: 18px;
+    height: auto;
+    font-size: 20px;
   }
   .logoYT {
     width: 60px;
@@ -690,6 +697,11 @@ button {
   }
   .datos p {
     font-size: 16px;
+  }
+  .IframeInicio {
+    width: 400px;
+    height: 250px;
+    margin: auto;
   }
 }
 /*MQ 992 PX*/
@@ -705,6 +717,9 @@ button {
   .MarcasInicio {
     width: 350px;
     font-size: 20px;
+  }
+  .navegador ul {
+    display: block;
   }
 }
 /*MQ 1670 PX*/

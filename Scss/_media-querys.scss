@@ -11,35 +11,7 @@
 /*MQ 576 PX*/
 
 @media(max-width: 576px){
-        .navegador .menu{
-            display: block;
-            width: 65px;
-            height: 65px;
-            margin: 10px;
-            order: -1;
-        }
-        .navegador .menu:hover + ul{
-            left: 0px;
-        }
-        .navegador ul:hover{
-            left: 0px;
-        }
-        .navegador ul{
-            position: fixed;
-            top: 0;
-            left: -500px;
-            background-color: white;
-            width: 70vw;
-            height: 100vh;
-            flex-direction: column;
-            align-items: center;
-            justify-content: start;
-            padding-top: 100px;
-            transition: 1s;
-        }
-        .navegador ul li a{
-            color: black;
-        }
+        
 
         .BootsTrap{
             justify-content: center;
@@ -90,12 +62,41 @@
             50%{
                 transform: translate(400px , 0px);
             }
-        }
-}
+        }      
+}        
 
 /*MQ 768 PX*/
 
 @media(max-width: 768px){
+    .navegador .menu{
+        display: block;
+        width: 65px;
+        height: 65px;
+        margin: 10px;
+        order: -1;
+    }
+    .navegador .menu:hover + ul{
+        left: 0px;
+    }
+    .navegador ul:hover{
+        left: 0px;
+    }
+    .navegador ul{
+        position: fixed;
+        top: 0;
+        left: -500px;
+        background-color: white;
+        width: 70vw;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding-top: 100px;
+        transition: 1s;
+    }
+    .navegador ul li a{
+        color: black;
+    }
     .carousel-caption h5{
         display: block;  
     }
@@ -144,7 +145,8 @@
     }
     .MarcasInicio{
         width: 250px;
-        font-size: 18px;
+        height: auto;
+        font-size: 20px;
     }
     .logoYT{
         width: 60px;
@@ -158,6 +160,11 @@
         p{
             font-size: 16px;
         }       
+    }
+    .IframeInicio{
+        width: 400px;
+        height: 250px;
+        margin: auto;
     }
 }
 
@@ -176,6 +183,9 @@
     .MarcasInicio{
         width: 350px;
         font-size: 20px;
+    }
+    .navegador ul{
+        display: block;
     }
 
 }
