@@ -3,9 +3,9 @@
     border: solid 1px #000000;
     background-color: #35537c6e;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    column-gap: 20px;
-    padding: 14px;
+    grid-template-columns: 3fr 3fr 1fr;
+    column-gap: 2px;
+    padding: 20px;
     align-items: center;
 }
 
@@ -42,8 +42,8 @@
 
 .mapa iframe{
     border-radius: 15px;
-    width: 320px;
-    height: 220px;
+    width: 350px;
+    height: 200px
 }
 
 .box-seguinos{

@@ -16,6 +16,7 @@
 .tarjetaProductos img {
   width: 100%;
   height: 274px;
+  object-fit: contain;
 }
 
 .red-social {
@@ -223,9 +224,9 @@
   border: solid 1px #000000;
   background-color: rgba(53, 83, 124, 0.431372549);
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  column-gap: 20px;
-  padding: 14px;
+  grid-template-columns: 3fr 3fr 1fr;
+  column-gap: 2px;
+  padding: 20px;
   align-items: center;
 }
 
@@ -262,8 +263,8 @@
 
 .mapa iframe {
   border-radius: 15px;
-  width: 320px;
-  height: 220px;
+  width: 350px;
+  height: 200px;
 }
 
 .box-seguinos {
@@ -290,18 +291,19 @@
 .conjunto-trabajos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: space-around;
 }
 
 .tarjetaInicio {
-  width: 225px;
-  height: 300px;
-  margin: 2px 15px 2px 5px;
+  width: 325px;
+  height: 250px;
+  margin: 10px 15px 10px 5px;
 }
 .tarjetaInicio img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
+  object-fit: fill;
 }
 
 .titulo-tamanio {
@@ -365,7 +367,8 @@
 }*/
 .MarcasInicio {
   border-radius: 5px;
-  width: 500px;
+  width: 300px;
+  height: 540px;
   border: solid 1px white;
   margin: 30px auto;
   color: rgb(197, 223, 224);
@@ -385,6 +388,17 @@
 }
 .MarcasInicio li {
   margin: 5px;
+}
+
+.IframeInicio {
+  width: 500px;
+  margin: 200px;
+}
+
+.Section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .grupoDetrabajo {
@@ -500,6 +514,7 @@ button {
   width: 150px;
   height: 22px;
   margin: 30px;
+  border-radius: 5px;
 }
 
 .productos {
