@@ -28,7 +28,8 @@
 }
 
 .body {
-  background-image: url(../Multimedia/Img/Fondo\ pagina\ nuevo.jpg);
+  background-color: rgb(0, 0, 0);
+  /*background-image: url(../Multimedia/Img/Fondo\ pagina\ nuevo.jpg);*/
   background-size: cover;
 }
 
@@ -171,12 +172,12 @@
 .carousel h5 {
   color: rgb(241, 245, 26);
   font-size: 35px;
-  text-shadow: 2px 6px 3px #000000;
+  text-shadow: 2px 3px 4px #000000;
 }
 .carousel p {
-  color: rgb(213, 228, 9);
+  color: rgb(241, 245, 26);
   font-size: 20px;
-  text-shadow: 2px 6px 3px #000000;
+  text-shadow: 2px 3px 4px #000000;
 }
 
 .formulario {
@@ -212,6 +213,11 @@
 .formulario .in-Mensaje {
   grid-column: 2 span;
   text-align: start;
+}
+
+.ingreseMensaje {
+  width: 720px;
+  height: 200px;
 }
 
 .formulario .in-Terminos {
@@ -306,6 +312,12 @@
   object-fit: fill;
 }
 
+.Termicas {
+  border: solid 1px;
+  border-radius: 18px;
+  color: #fff;
+}
+
 .titulo-tamanio {
   font-size: 40px;
   color: bisque;
@@ -344,9 +356,8 @@
 .H1contacto {
   color: white;
   margin-top: 155px;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
-  font-weight: bolder;
 }
 
 /*.Bloque{
@@ -393,6 +404,8 @@
 .IframeInicio {
   width: 500px;
   margin: 200px;
+  border-radius: 10px;
+  box-shadow: -7px -7px 10px rgba(219, 241, 241, 0.3294117647);
 }
 
 .Section1 {
@@ -538,8 +551,8 @@ button {
 @media (max-width: 576px) {
   .navegador .menu {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 65px;
+    height: 65px;
     margin: 10px;
     order: -1;
   }
@@ -649,6 +662,10 @@ button {
   }
   .formulario input {
     width: auto;
+  }
+  .ingreseMensaje {
+    width: auto;
+    height: auto;
   }
   .cuerpoProductos {
     flex-wrap: wrap;

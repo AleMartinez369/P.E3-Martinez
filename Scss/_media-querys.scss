@@ -13,8 +13,8 @@
 @media(max-width: 576px){
         .navegador .menu{
             display: block;
-            width: 30px;
-            height: 30px;
+            width: 65px;
+            height: 65px;
             margin: 10px;
             order: -1;
         }
@@ -129,6 +129,10 @@
     }
     .formulario input{
         width: auto;
+    }
+    .ingreseMensaje{
+        width: auto;
+        height: auto;
     }
     .cuerpoProductos{
         flex-wrap: wrap;
