@@ -23,6 +23,7 @@
   width: 60px;
   height: 60px;
   display: flex;
+  margin: 10px 100px 10px 0px;
   flex-direction: column;
   align-items: center;
 }
@@ -278,11 +279,23 @@
   flex-direction: column;
   align-items: center;
 }
+.box-seguinos p {
+  margin: 10px 100px 10px 0px;
+}
 
 .parrafo-pie {
   color: whitesmoke;
   font-size: 20px;
   padding: 5px;
+}
+
+.red-social {
+  object-fit: cover;
+}
+
+.twiter {
+  width: 50px;
+  height: 30px;
 }
 
 .referencia {
@@ -304,16 +317,17 @@
   width: 325px;
   height: 250px;
   margin: 10px 15px 10px 5px;
+  transition: 1s;
+}
+.tarjetaInicio:hover {
+  transition: 1s;
+  transform: scale(1.03);
 }
 .tarjetaInicio img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
   object-fit: cover;
-}
-
-.PasacableInicio img {
-  object-fit: fill;
 }
 
 .Termicas {
@@ -622,14 +636,14 @@ button {
   .navegador ul {
     position: fixed;
     top: 0;
-    left: -500px;
+    left: -700px;
     background-color: white;
-    width: 70vw;
-    height: 100vh;
+    width: 60vw;
+    height: 50vh;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    padding-top: 100px;
+    padding-top: 50px;
     transition: 1s;
   }
   .navegador ul li a {
@@ -643,6 +657,12 @@ button {
   }
   .PieDePagina .box-seguinos {
     grid-column: auto;
+  }
+  .PieDePagina .box-seguinos p {
+    margin: auto;
+  }
+  .red-social {
+    margin: auto;
   }
   .formulario {
     width: auto;

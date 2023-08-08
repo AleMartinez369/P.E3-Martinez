@@ -84,14 +84,14 @@
     .navegador ul{
         position: fixed;
         top: 0;
-        left: -500px;
+        left: -700px;
         background-color: white;
-        width: 70vw;
-        height: 100vh;
+        width: 60vw;
+        height: 50vh;
         flex-direction: column;
         align-items: center;
         justify-content: start;
-        padding-top: 100px;
+        padding-top: 50px;
         transition: 1s;
     }
     .navegador ul li a{
@@ -105,6 +105,12 @@
     }
     .PieDePagina .box-seguinos{
         grid-column: auto;
+        p{
+            margin: auto;
+        }
+    }
+    %redes{
+        margin: auto;
     }
     .formulario{
         width: auto;
