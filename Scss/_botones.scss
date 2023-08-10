@@ -3,13 +3,7 @@ button{
 }
 
 .productos__comprar{
-    width: 140px;
-    height: 40px;
-    background-color: rgba(23, 24, 23, 0.89);
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 10px;
-    transition: 0.7s;
+    @include boton-estilo (10px,rgba(23, 24, 23, 0.89))
 }
 
 .productos__comprar:hover{
@@ -19,8 +13,5 @@ button{
 }
 
 .formulario button{
-    background-color: rgb(238, 230, 216);
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    @include boton-estilo (6px,rgb(9, 12, 54)) 
 }

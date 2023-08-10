@@ -1,0 +1,9 @@
+@mixin boton-estilo ($radius,$bg){
+    width: 140px;
+    height: 40px;
+    background-color: $bg;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: $radius;
+    transition: 0.7s;
+}
