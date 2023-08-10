@@ -64,8 +64,8 @@
 .tarjetaNosotros{
     border: solid 3px;
     border-radius: 5px;
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     padding: 1px;
     margin: 5px;
 
@@ -74,8 +74,9 @@
         height: 100%;
         object-fit: cover;
         &:hover{
-        transform: rotateY(360deg) scale(1.5);
+        transform: rotateY(360deg) scale(1.4);
         transition: 2.5s;
+        border-radius: 8px;
         }
     }
 }
@@ -104,10 +105,11 @@ li{
 
 .datos{
     color: white;
+    font-size: 24px;
     font-weight: bolder;
     border: solid 5px rgb(22, 22, 109);
     border-radius: 6px;
-    width: 450px;
+    width: 800px;
     padding: 10px;
     margin: 20px auto;
     display: flex;
